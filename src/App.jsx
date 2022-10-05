@@ -100,7 +100,6 @@ function App() {
   const [questionCount, setQuestionCount] = useState(0);
   const [result, setResult] = useState(false);
   const [score, setScore] = useState(0);
-  console.log(score);
 
   // handlers
   const updateQuizHandler = (isCorrect  ) => {
